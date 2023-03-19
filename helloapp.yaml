@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nodeapp
-        image: kartheekgowdabm/helloapp:1
+        image: kartheekgowdabm/helloapp:VERSION
         ports:
         - name: nodeappport
           containerPort: 3001
