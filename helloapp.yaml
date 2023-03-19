@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nodeapp
-        image: 629159009521.dkr.ecr.ap-south-1.amazonaws.com/helloword:1:VERSION
+        image: 629159009521.dkr.ecr.ap-south-1.amazonaws.com/helloword:VERSION
         ports:
         - name: nodeappport
           containerPort: 3001
